@@ -4,7 +4,7 @@ function init() {
   // Write your JavaScript code inside the init() function
   var body = document.querySlecetor("body");
   body.addeventlistener("keydown", function(e){
-      const key = parseInt( e.which);
+      const key = parseInt(e.which);
 
 if (key === code[index]) {
   index++;
